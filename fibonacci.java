@@ -19,7 +19,7 @@ System.out.println(a+ "," + b ",");
 }
 else
 {
-System.out.print(a + b +",");
+System.out.print(a +","+ b +",");
 
 for(i=3; i<=n; i++)
 {
