@@ -21,7 +21,7 @@ else
 {
 System.out.print(a + b +",");
 
-for(i=2; i<=n; i++)
+for(i=3; i<=n; i++)
 {
 int j= a+b;
 System.out.print(j +",");
