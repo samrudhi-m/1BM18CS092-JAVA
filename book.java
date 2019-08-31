@@ -5,8 +5,6 @@ class book{
 	int num_pages;
 	double price;
 	
-	// book(){}	
-	// String name, String author, int num_pages, double price
 	book(){
 		name="Not Given";
 		author="Not Given";
