@@ -1,11 +1,11 @@
 import java.util.*;
-class book_demo
+class book
 {
   public String name;
   public String author;
   public float price;
   public int pages;
-  book_demo()
+  book()
    { }
   public void set_data()
    {
@@ -30,7 +30,7 @@ class book_demo
 }
 
 
-class book
+class book_demo
 {
   public static void main(String args[])
    {
@@ -39,10 +39,10 @@ class book
      Scanner a=new Scanner(System.in);
      System.out.print("Enter number of objects: ");
      int n=a.nextInt();
-     book_demo b[]=new book_demo[10];
+     book b[]=new book[10];
      while(i<n)
        { 
-         b[i]=new book_demo(); 
+         b[i]=new book(); 
          System.out.println("Book "+(i+1));
          System.out.println("\n1)Using set and get data\n2)Using toString method\n3)Exit\n");
          System.out.print("Enter your choice: ");
